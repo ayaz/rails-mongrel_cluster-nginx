@@ -1,4 +1,4 @@
-rails-mongrel_cluster-nginx
+Rails on Mongrel_Cluster and Nginx
 ===========================
 
 This is a small guide to help deploy a Ruby on Rails project on mongrel_cluster and nginx stack. 
@@ -77,3 +77,12 @@ This is a small guide to help deploy a Ruby on Rails project on mongrel_cluster 
         $ sudo /etc/init.d/nginx stop
         $ sudo mongrel_rails cluster::stop
 
+
+### References
+
+The following really helped me:
+
+[Ubuntu - Mongrel and mongrel cluster](http://www.rackspace.com/knowledge_center/article/ubuntu-mongrel-and-mongrel-cluster)
+[Ruby on Rails / Mongrel](http://wiki.nginx.org/RubyonRailsMongrel)
+[Difference between Nginx and Mongrel](http://stackoverflow.com/questions/12724943/difference-between-nginx-and-mongrel) is a very helpful explanation of the differences between Mongrel and Nginx.
+[Mongrel vs WEBrick](http://stackoverflow.com/questions/596902/mongrel-vs-webrick)
